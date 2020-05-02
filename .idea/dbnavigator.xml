@@ -24,27 +24,28 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
-      <connection connection-id="9dac8c7c-981c-42b0-9577-4cee26701825">
-        <schema name="main" object-types="view, table" />
+      <connection connection-id="53675875-8e0d-495c-8138-6fc58b486d35">
+        <schema name="dev_myrebatesdb" object-types="function, column, view, table" />
+        <schema name="mysql" object-types="view, table" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="9dac8c7c-981c-42b0-9577-4cee26701825">
-      <console name="SQLiteConnection" type="STANDARD" schema="" session="Main" />
+    <connection id="53675875-8e0d-495c-8138-6fc58b486d35">
+      <console name="DBConnection" type="STANDARD" schema="mysql" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="9dac8c7c-981c-42b0-9577-4cee26701825" />
+    <connection id="53675875-8e0d-495c-8138-6fc58b486d35" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/src/main/resources/schema.sql" connection-id="9dac8c7c-981c-42b0-9577-4cee26701825" session-id="MAIN" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/src/main/resources/schema.sql" connection-id="53675875-8e0d-495c-8138-6fc58b486d35" session-id="MAIN" current-schema="dev_myrebatesdb" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />
@@ -62,30 +63,29 @@
     <filters />
   </component>
   <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
-    <recently-used-interfaces />
+    <recently-used-interfaces>
+      <mapping database-type="MYSQL" interface-id="DEFAULT" />
+    </recently-used-interfaces>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="9dac8c7c-981c-42b0-9577-4cee26701825" active="true">
+      <connection id="53675875-8e0d-495c-8138-6fc58b486d35" active="true">
         <database>
-          <name value="SQLiteConnection" />
-          <description value="localhost" />
-          <database-type value="SQLITE" />
+          <name value="DBConnection" />
+          <description value="RebatesDb" />
+          <database-type value="MYSQL" />
           <config-type value="BASIC" />
-          <database-version value="3.21" />
+          <database-version value="8.0" />
           <driver-source value="BUILTIN" />
           <driver-library value="" />
           <driver value="" />
-          <url-type value="FILE" />
-          <host value="localhost" />
-          <port value="1234" />
-          <database value="database" />
-          <files>
-            <file path="$PROJECT_DIR$/src/main/resources/mydb.db" schema="main" />
-          </files>
-          <type value="NONE" />
-          <user value="" />
-          <deprecated-pwd value="" />
+          <url-type value="DATABASE" />
+          <host value="devmyrebatesdb.cipxz659zhpc.ap-south-1.rds.amazonaws.com" />
+          <port value="3306" />
+          <database value="mysql" />
+          <type value="USER_PASSWORD" />
+          <user value="devdbuser" />
+          <deprecated-pwd value="dXNlckAyMDIw" />
         </database>
         <properties>
           <auto-commit value="false" />
