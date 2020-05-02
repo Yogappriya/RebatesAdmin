@@ -28,14 +28,14 @@ public class RebatesAdminController{
     }
 
 
-    @RequestMapping(value="/home", method = RequestMethod.GET)
+   /*@RequestMapping(value="/home", method = RequestMethod.GET)
     public ModelAndView home(){
         ModelAndView modelAndView = new ModelAndView();
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         modelAndView.addObject("userName", "Welcome " + auth.getName() + "!");
         modelAndView.setViewName("/home");
         return modelAndView;
-    }
+    }*/
 
 
     @ModelAttribute("user")
