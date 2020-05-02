@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 @RestController
-public class RebatesAdminController extends WebSecurityConfigurerAdapter {
+public class RebatesAdminController{
 
 
     @Autowired

@@ -15,7 +15,6 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @Configuration
 @EnableWebSecurity
-@Order(1000)
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Bean
@@ -33,7 +32,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .passwordEncoder(bCryptPasswordEncoder());
     }
 
-    @Override
+    /*@Override
     protected void configure(HttpSecurity http) throws Exception {
 
         http.
@@ -48,7 +47,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
                 .logoutSuccessUrl("/login").and().exceptionHandling()
                 .accessDeniedPage("/access-denied");
-    }
+    }*/
 
     @Bean
     public AuthenticationManager customAuthenticationManager() throws Exception {
