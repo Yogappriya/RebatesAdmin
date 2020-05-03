@@ -1,4 +1,4 @@
-package com.rebatesadmin.user;
+package com.rebatesadmin.entity;
 
 
 import javax.persistence.Column;

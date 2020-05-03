@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.rebatesadmin.user.User;
-import com.rebatesadmin.user.UserRepository;
+import com.rebatesadmin.entity.User;
+import com.rebatesadmin.entity.repository.UserRepository;
 
 @Service
 public class UserServiceImpl {

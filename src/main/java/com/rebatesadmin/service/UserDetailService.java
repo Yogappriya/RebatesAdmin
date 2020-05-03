@@ -10,8 +10,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.rebatesadmin.user.User;
-import com.rebatesadmin.user.UserRepository;
+import com.rebatesadmin.entity.User;
+import com.rebatesadmin.entity.repository.UserRepository;
 
 
 @Service
