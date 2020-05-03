@@ -1,11 +1,11 @@
-package com.example.RebatesAdmin.service;
+package com.rebatesadmin.service;
 
-import com.example.RebatesAdmin.user.User;
-import com.example.RebatesAdmin.user.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import com.rebatesadmin.user.User;
+import com.rebatesadmin.user.UserRepository;
 
 @Service
 public class UserServiceImpl {

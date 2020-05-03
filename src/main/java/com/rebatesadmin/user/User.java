@@ -1,4 +1,4 @@
-package com.example.RebatesAdmin.user;
+package com.rebatesadmin.user;
 
 
 import org.hibernate.validator.constraints.Length;

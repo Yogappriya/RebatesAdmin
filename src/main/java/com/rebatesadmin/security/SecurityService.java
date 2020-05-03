@@ -1,4 +1,4 @@
-package com.example.RebatesAdmin.Security;
+package com.rebatesadmin.security;
 
 public interface SecurityService {
 

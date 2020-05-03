@@ -1,4 +1,4 @@
-package com.example.RebatesAdmin;
+package com.rebatesadmin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

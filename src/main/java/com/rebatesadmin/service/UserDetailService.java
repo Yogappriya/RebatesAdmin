@@ -1,8 +1,8 @@
-package com.example.RebatesAdmin.service;
+package com.rebatesadmin.service;
 
 
-import com.example.RebatesAdmin.user.User;
-import com.example.RebatesAdmin.user.UserRepository;
+import java.util.ArrayList;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -10,7 +10,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
+import com.rebatesadmin.user.User;
+import com.rebatesadmin.user.UserRepository;
 
 
 @Service

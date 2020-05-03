@@ -1,4 +1,4 @@
-package com.example.RebatesAdmin.Security;
+package com.rebatesadmin.security;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

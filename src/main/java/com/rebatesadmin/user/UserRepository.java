@@ -1,4 +1,4 @@
-package com.example.RebatesAdmin.user;
+package com.rebatesadmin.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
