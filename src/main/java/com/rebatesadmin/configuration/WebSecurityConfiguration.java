@@ -1,4 +1,4 @@
-package com.rebatesadmin.config;
+package com.rebatesadmin.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

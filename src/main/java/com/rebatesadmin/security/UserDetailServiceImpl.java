@@ -1,4 +1,4 @@
-package com.rebatesadmin.service;
+package com.rebatesadmin.security;
 
 
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ import com.rebatesadmin.entity.repository.UserRepository;
 
 
 @Service
-public class UserDetailService implements UserDetailsService {
+public class UserDetailServiceImpl implements UserDetailsService {
 
     @Autowired
     private UserRepository userRepository;
