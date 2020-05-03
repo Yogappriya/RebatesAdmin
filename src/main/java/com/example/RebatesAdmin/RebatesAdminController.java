@@ -23,7 +23,7 @@ public class RebatesAdminController{
     @RequestMapping(value={"/"}, method = RequestMethod.GET)
     public ModelAndView login(){
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("/home");
+        modelAndView.setViewName("home");
         return modelAndView;
     }
 
