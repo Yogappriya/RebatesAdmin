@@ -1,4 +1,4 @@
-package com.rebatesadmin;
+package com.rebatesadmin.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
